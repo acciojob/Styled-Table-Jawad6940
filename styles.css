@@ -1,1 +1,30 @@
+
 /* your code */
+.container{
+    width: 80%;
+    margin: auto;
+   padding: 10px;
+    /* background-color:rebeccapurple; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header{
+    background-color: #215A8E;
+    color: white;
+    text-align: left;
+}
+#row tr:nth-child(even){
+    background-color: #f2f2f2;
+} 
+td,th{
+    padding: 10px;}
+
+.border{
+    width: 100%;
+    border-collapse: collapse;
+    /* width: 800px;
+    height: 300px; */
+       border-radius: 10px ;
+       overflow: hidden ;
+    }
